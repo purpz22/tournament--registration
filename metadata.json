@@ -1,0 +1,5 @@
+{
+  "name": "BoxDraft Registration",
+  "description": "A dynamic player registration system where users register and pick a team box with limited slots.",
+  "requestFramePermissions": []
+}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { AppState, Player, Question, Box } from '../types';
-import { CheckIcon, UserIcon } from './Icons';
+import { AppState, Player, Question, Box } from '../types.ts';
+import { CheckIcon, UserIcon } from './Icons.tsx';
 
 interface RegistrationFlowProps {
   state: AppState;

@@ -1,4 +1,4 @@
-import { Question, Box, AppState } from './types';
+import { Question, Box, AppState } from './types.ts';
 
 export const DEFAULT_QUESTIONS: Question[] = [
   {

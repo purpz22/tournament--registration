@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { useAppStorage } from './hooks/useLocalStorage';
-import AdminPanel from './components/AdminPanel';
-import RegistrationFlow from './components/RegistrationFlow';
+import { useAppStorage } from './hooks/useLocalStorage.ts';
+import AdminPanel from './components/AdminPanel.tsx';
+import RegistrationFlow from './components/RegistrationFlow.tsx';
 
 const App = () => {
   const { state, isLoaded, actions } = useAppStorage();

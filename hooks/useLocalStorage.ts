@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { AppState, Player, Question, Box } from '../types';
-import { INITIAL_STATE, STORAGE_KEY } from '../constants';
+import { AppState, Player, Question, Box } from '../types.ts';
+import { INITIAL_STATE, STORAGE_KEY } from '../constants.ts';
 
 export const useAppStorage = () => {
   const [state, setState] = useState<AppState>(INITIAL_STATE);

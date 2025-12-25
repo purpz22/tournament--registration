@@ -42,10 +42,14 @@
   }
 }
 </script>
+<!-- Babel for in-browser compilation -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-gray-50 text-gray-900">
     <div id="root"></div>
+    <!-- Load the main entry file with Babel -->
+    <script type="text/babel" data-type="module" data-presets="typescript,react" src="./index.tsx"></script>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
